@@ -1,0 +1,65 @@
+p, h1, h2, h3, h4, span{
+	font-family: 'Quicksand', sans-serif;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.back{
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  color:white;
+}
+.back h2{
+  text-align: center;
+  padding-top: 50px;
+}
+#bg-video{
+  position: fixed;
+  top:-50px;
+  left:0;
+  margin: 0;
+  min-width: 100%;
+  max-height:110%;
+  z-index: -1000;
+}
+.pestanas{
+  display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-left: 5%;
+}
+.link{
+	width: 200px;
+	flex-grow: 1;
+	text-align: center;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+.link:hover{
+	color:#262626;
+}
+.name{
+	text-align: center;
+	margin-top:25vh;
+}
+.name h1{
+	font-size: 60px;
+}
+.redes{
+	display: flex;
+	justify-content: center;
+	margin-top: 27vh;
+}
+.icon_about{
+	margin: 0 20px;
+}
+.box_slide{
+	margin-top: 35px;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	padding-top: 35px;
+	text-align: center;
+}

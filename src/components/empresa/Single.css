@@ -1,0 +1,17 @@
+.single{
+	display: flex;
+	padding-top: 100px;
+}
+.text{
+	width: 40%;
+	padding: 5%;
+
+}
+.img_text{
+	width: 50%
+}
+.img_text img{
+	width: 90%;
+	padding:10% 5%;
+
+}
