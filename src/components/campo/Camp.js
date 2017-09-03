@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import './Single.css';
+import './Camp.css';
 import FontAwesome from 'react-fontawesome';
 
-
-
-class Single extends Component {
+class Camp extends Component {
     render(){
         return(
             <div className='single'>
@@ -39,4 +37,4 @@ class Single extends Component {
     }
 }
 
-export default Single;
+export default Camp;

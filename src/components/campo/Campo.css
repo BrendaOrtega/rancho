@@ -1,0 +1,106 @@
+.tierra{
+	background-image:url('https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') ;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.cuadro{
+	width: 25%;
+	margin-left: 10%;
+	background-color: #B1CCCE;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	text-align: left;
+	padding: 0 1% 0 3%;
+	color:white;
+}
+.cat{
+	padding-bottom: 50px;
+	width: 80%;
+	margin-left: 10%;
+}
+.product{
+	width: 400px;
+	flex-grow: 1;
+	height: 280px;
+	overflow: hidden;
+}
+
+.product_title{
+	width: 160px;
+	margin:10px 0 50px 20px;
+}
+.product_title hr{
+	height: 4px;
+	border:transparent;
+	border-radius: 4px;
+	background-color: black;
+}
+.product_title h3{
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.cubierta{
+	background-color:transparent;
+	width: 100%;
+	height: 100%;
+	transition: all 1s ease;
+	padding-top: 40px;
+}
+.product p{
+	color: transparent;
+	transition: all 1s ease;
+	margin-top: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+.uno{
+	background-image: url('https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+	background-size: cover;
+	transition: all 1s ease;
+}
+.dos{
+	background-image: url('https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+		background-size: cover;
+}
+.tres{
+	background-image: url('https://images.pexels.com/photos/161512/eggplant-400-08373800-400-08373801-400-08373802-400-08373803-161512.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-size: cover;
+}
+.cuatro{
+	background-image: url('https://images.pexels.com/photos/298696/pexels-photo-298696.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-size: cover;
+}
+.cubierta:hover{
+	background-color: rgba(0,0,0,.7);
+	cursor: pointer;
+}
+.cubierta:hover p{
+	color: white;
+}
+.resaltado{
+	font-size: 25px;
+	font-size: bolder;
+}
+@media(max-width: 600px){
+	.cuadro{
+		width: 100%;
+		margin-left: 0;
+		height: 300px;
+		position: relative;
+		top:40vh;
+	}
+	.tierra{
+		display: block;
+	}
+	.space{
+		width: 100%;
+		display: block;
+		position: relative;
+		top:-50px;
+	}
+}

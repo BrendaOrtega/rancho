@@ -1,0 +1,138 @@
+.store{
+	background-image: url('https://images.pexels.com/photos/15964/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 60vh;
+}
+.text_store{
+	color:white;
+	margin-top: 0;
+	font-size: 60px;
+	padding: 80px 0 0 40px;
+}
+.white{
+	background-color: white;
+	padding: 2% 5%;
+	margin-left: 40px;
+	margin-right: 150px;
+}
+
+.box_store{
+	display: flex;
+	flex-wrap: wrap;
+}
+.img_store{
+	width: 50%;
+}
+.img_store img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.descript_store{
+	width: 45%;
+	margin-top: 5%;
+}
+.store_product{
+	margin: 70px 0 0 0;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: #F5F5F5;
+}
+.store_product h2{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.card_p{
+	width: 80%;
+	margin-left: 10%;
+	height: 350px;
+	display: flex;
+	background-color: white;
+	margin-bottom: 50px;
+}
+.card_img{
+	width: 50%;
+	height: 350px;
+	background-image: url('https://images.pexels.com/photos/165228/pexels-photo-165228.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'); 
+}
+.card_text{
+	width: 50%;
+}
+.card_text h4{
+	text-align: left;
+	padding-left: 20px;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+.card_text p{
+	text-align: left;
+	padding-left: 20px;
+	margin:0;
+}
+.card_text_dos{
+	width: 50%;
+}
+.card_text_dos h4{
+	text-align: right;
+	padding-right: 20px;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+.card_text_dos p{
+	text-align: right;
+	padding-right: 20px;
+	margin:0;
+
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.list div{
+	width: 225px;
+	flex-grow: 1;
+	padding: 1% 2%;
+}
+.list span{
+	background-color: #E5E9DC;
+	padding: 1% 5%;
+	border-radius: 3px;
+}
+.prod{
+	width: 90%;
+	height: 1px;
+	background-color: #E0E0E0;
+	text-align: right;
+	border:none;
+}
+@media(max-width: 600px){
+	.white{
+		width:80%;
+		margin-left:5%;
+	}
+	.img_store, .descript_store{
+		width:90%;
+		margin-left: 5%;
+	}
+	.card_text h4, .card_text_dos h4{
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.card_text p, .card_text_dos {
+		font-size: 12px;
+		margin-top: 0;
+	}
+	.list{
+		font-size: 13px;
+	}
+	.list div{
+		margin:3px 0;
+	}
+	.store{
+		height:90vh;
+	}
+}

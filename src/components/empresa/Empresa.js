@@ -55,90 +55,54 @@ class Empresa extends Component {
                             Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
                             Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, </p>
                 		</div>
-                		<div className='space bot'>
+                		<div className='spaces bot'>
                 			<h2>Selección de Granos</h2>
                 		</div>
                 	    
           		</div>
                 <Single />
-                <div className='cat'>
-                    <div className='product_title bot'>
-                        <h3>Productos</h3>
-                        <hr />
+                <div className='examples'>
+                    <div className=' bot'>
+                    <h2>Conocenos</h2>             
                     </div>
-                    <div className='fotos '>
-                        <div className='product uno left'>
-                            <div className='cubierta'> 
-                            <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                           </div>
-                        </div> 
-                        <div className='product dos bot'>
-                           <div className='cubierta'>
-                                <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p> 
+                    <div className='flex'>
+                        <div className='box_example'>
+                            <div className='circle'>
                             </div>
-                        </div> 
-                        <div className='product tres right'>
-                            <div className='cubierta'>
-                              <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                            </div>
-                        </div> 
-                        <div className='product tres left'>
-                            <div className='cubierta'>
-                              <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                            </div>
-                        </div> 
-                        <div className='product uno bot'>
-                            <div className='cubierta'>
-                                  <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                            </div>
-                        </div> 
-                       <div className='product dos right'>
-                           <div className='cubierta'>
-                                  <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                            </div>
-                        </div> 
-                        <div className='product dos left'>
-                           <div className='cubierta'>
-                                  <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
-                            </div>
+                            
+                            <h3>Maíz</h3>
+                            <hr className='linea'/>
+                            <p>El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%. 
+                            El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%.
+                            </p>
                         </div>
-                        <div className='product tres bot'>
-                            <div className='cubierta'>
-                                  <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
+                        <div className='box_example'>
+                            <div className='circle'>
                             </div>
+                            
+                            <h3>Surgo</h3>
+                            <hr className='linea'/>
+                            <p>El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%. 
+                            El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%.
+                            </p>
                         </div>
-                        <div className='product uno right'>
-                            <div className='cubierta'>
-                                  <p>Grano de Maíz</p>
-                            <p>Amarillo duro: 20,0</p>
-                            <p>Blanco duro:15,0</p>
-                            <p>Harinoso y Morocho:,9</p>
+                        <div className='box_example'>
+                            <div className='circle'>
+                            
                             </div>
-                        </div>    
+                            
+                            <h3>Granos</h3>
+                            <hr className='linea'/>
+                            <p>El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%. 
+                            El maíz de mejor calidad de Jalisco se produce en el poblado de Mascota, 
+                            utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%.
+                            </p>
+                        </div>
                     </div>
 
                 </div>

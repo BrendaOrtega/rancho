@@ -15,7 +15,7 @@ class Slide extends Component {
 			    autoplay: true
 			};
         return(
-            <div className='carousel left'>       
+            <div className='carousel '>
             	<OwlCarousel ref="car" options={options}  >
 				    <div><img src="https://images.pexels.com/photos/296230/pexels-photo-296230.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="The Last of us"/></div>
 				    <div><img src="https://images.pexels.com/photos/158179/lake-constance-sheep-pasture-sheep-blue-158179.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="GTA V"/></div>

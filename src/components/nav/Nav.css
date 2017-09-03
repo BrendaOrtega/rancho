@@ -1,0 +1,23 @@
+
+
+.pestanas{
+  display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-left: 5%;
+}
+.link{
+	width: 150px;
+	flex-grow: 1;
+	text-align: center;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+.link:hover{
+	color:#262626;
+}
+@media(max-width: 600px){
+	.pestanas{
+		display: none;
+	}
+}

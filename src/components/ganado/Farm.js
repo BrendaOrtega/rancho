@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import './Single.css';
+import './Farm.css';
 import FontAwesome from 'react-fontawesome';
 
 
 
-class Single extends Component {
+class Farm extends Component {
     render(){
         return(
             <div className='single'>
             	<div className='text left'>
-            		<h2>Ganadería</h2> 
+            		<h2>En Selección de Granos</h2> 
             		<p> Contamos con instalaciones y maquinaria adecuadas 
             		para la elaboración de nuestros productos, además de un personal capacitado y
             		 excelentes proveedores, lo que nos permite brindar alimentos de calidad que 
@@ -30,13 +30,11 @@ class Single extends Component {
 					  cebollitas y pimentón sofritos, acompañado de arroz blanco.</p>
             	</div>
             	<div className='img_text right'>
-
-            		<img src='https://images.pexels.com/photos/326082/pexels-photo-326082.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'/>
+            		<img src='https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'/>
             	</div>
-                
             </div>
         );
     }
 }
 
-export default Single;
+export default Farm;

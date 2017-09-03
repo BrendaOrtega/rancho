@@ -1,10 +1,11 @@
 .single{
 	display: flex;
+	flex-wrap:wrap;
 	padding-top: 100px;
 }
 .text{
 	width: 40%;
-	padding: 5%;
+	padding: 2% 5% ;
 
 }
 .img_text{
@@ -12,6 +13,19 @@
 }
 .img_text img{
 	width: 90%;
-	padding:10% 5%;
+	padding:12% 5%;
 
+}
+@media(max-width: 600px){
+
+	.single{
+		padding-top: 30px;
+		
+	}
+	.text{
+		width:100%;
+	}
+	.img_text{
+		width:100%;
+	}
 }
