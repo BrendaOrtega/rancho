@@ -9,10 +9,16 @@ import {Link} from 'react-router-dom';
 class Nav extends Component {
     render(){
         return(
-            <div>       
-	                <h2 className='bot'>Logo</h2>
+            <div>
+				<Link to='/'>
+					<h2 className='bot'>Logo</h2>
+				</Link>
+
 	                <div className='pestanas bot'>
-	                  <p className='link'>Somos</p>
+						<Link to='/'>
+							<p className='link'>Somos</p>
+						</Link>
+
 	                  <Link to='/ganaderia'>
 	                  	<p className='link'>Ganadería</p>
 	                  </Link>
@@ -26,7 +32,11 @@ class Nav extends Component {
 	                  <Link to='/tienda'>
 	                  <p className='link'>Tienda</p>
 	                  </Link>
-	                  <p className='link'>Contacto</p>
+						<Link to='/contacto'>
+							<p className='link'>Contacto</p>
+						</Link>
+
+
 	                </div>
 	             
             </div>

@@ -4,9 +4,42 @@ import FontAwesome from 'react-fontawesome';
 import OwlCarousel from 'react-owl-carousel2';
 import Farm from './Farm';
 import Footer from '../footer/Footer';
+import Bar from '../nav/Bar';
+import sr from '../about/scrollReveal.js';
 
 class Ganado extends Component {
+    componentDidMount () {
+        const config = {
+            origin: 'right',
+            duration: 1000,
+            delay: 150,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
 
+        const config2 = {
+            origin: 'left',
+            duration: 1000,
+            delay: 150,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+        const config3 = {
+            origin: 'bottom',
+            duration: 800,
+            delay: 100,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+
+        sr.reveal('.right', config2);
+        sr.reveal('.left', config);
+        sr.reveal('.bot', config3);
+
+    }
 
     render(){
 		const options = {
@@ -28,26 +61,25 @@ class Ganado extends Component {
 			};
         return(
             <div>
-                <div className='ganaderia'>
-                	
-                		<div className='rect '>
 
-                			<p className='bot'>
-                            Encuentra aqui:
-                            <br />
-                            <br />
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, </p>
-                		</div>
-                		<div className='space bot'>
-                			<h2>Ganadería</h2>
-                		</div>
-                	    
+                <div className='ganaderia'>
+							<Bar />
+							<div className='rect '>
+								<p className='bot'>
+								Encuentra aqui:
+								<br />
+								<br />
+								Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
+								Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
+								Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
+								Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, </p>
+							</div>
+							<div className='space bot'>
+								<h2>Ganadería</h2>
+							</div>
           		</div>
                 <Farm />
-                <div className='section'>
+                <div className='section bot'>
                 	<h3 >Las mejores crías de ganado</h3>
                 	<p >El ganado es el conjunto de animales pinzon es un bruto, sobre todo mamíferos,
                 	 para la ... Ganado vacuno o bovino: Es el conjunto de vacas, toros y bueyes 
@@ -56,7 +88,7 @@ class Ganado extends Component {
                 	  </p>
                 	 
                 	   <hr />
-                	  <div className='box_ganado left'>
+                	  <div className='box_ganado lefti'>
                 	  		<div className='space_ganado '>
                 	  			<h4>Bovinos</h4>
                 	  			<p>Los bovinos son animales mamíferos y rumiantes que constituyen una subfamilia 

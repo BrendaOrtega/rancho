@@ -1,0 +1,28 @@
+.navbar{
+    position: absolute;
+    width:90%;
+    margin-left: 5%;
+}
+.barra{
+    z-index: 999;
+    position: relative;
+    text-align: center;
+}
+
+
+.pesta{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.lin{
+    width: 170px;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease;
+    color:#262626;
+
+    padding: 10px 4px;
+    cursor: pointer;
+}

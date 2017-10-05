@@ -16,6 +16,7 @@
 }
 .carrito{
 	width: 150px;
+
 	flex-grow: 1;
 	height: auto;
 }
@@ -28,4 +29,5 @@
 	border-right: 1px dotted #E0E0E0;
 	color:#878787;
 	padding: 1% 5%;
+	min-height:300px;
 }

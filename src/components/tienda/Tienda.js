@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 import './Tienda.css';
 import FontAwesome from 'react-fontawesome';
 import Footer from '../footer/Footer';
+import Bar from '../nav/Bar';
+import {Link} from 'react-router-dom';
 
 
 class Tienda extends Component {
     render(){
         return(
             <div className='tienda'>
+
+				<Link to='/'>
+					<FontAwesome name='home' className='homi bot' size='2x'/>
+				</Link>
             	<div className='store'>
             		<h2 className='text_store'>Mascota Store</h2>
             		<div className="white">

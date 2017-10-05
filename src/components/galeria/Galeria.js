@@ -8,8 +8,8 @@ class Galeria extends Component {
     render(){
         return(
             <div className='galeria '>
-            	<h2 className='center bot'>Nuestras instalaciones</h2>
-            	<div className='fotos '>
+            	<h2 className=' bot'>Nuestras instalaciones</h2>
+            	<div className='fotos center '>
 					<div className='box_image right'>
 						<img src='https://images.pexels.com/photos/39351/purple-grapes-vineyard-napa-valley-napa-vineyard-39351.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' />
 						<p>Apicultura</p>

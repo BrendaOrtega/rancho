@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome';
 import Single from './Single';
 import Footer from '../footer/Footer';
 import sr from '../about/scrollReveal.js';
-
+import Bar from '../nav/Bar';
 
 class Empresa extends Component {
     componentDidMount () {
@@ -43,22 +43,22 @@ class Empresa extends Component {
         return(
             <div>
                 <div className='info'>
-                	
+                        <Bar />
                 		<div className='rectangulo '>
 
                 			<p className='bot'>
                             Encuentra aqui:
                             <br />
                             <br />
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
-                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, 
+                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
+                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
+                            Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad,
                             Una comunidad pensada para que tu y tu familia encuentren tranquilidad y seguridad, </p>
                 		</div>
-                		<div className='spaces bot'>
+                		<div className='space bot'>
                 			<h2>Selección de Granos</h2>
                 		</div>
-                	    
+
           		</div>
                 <Single />
                 <div className='examples'>
@@ -66,7 +66,7 @@ class Empresa extends Component {
                     <h2>Conocenos</h2>             
                     </div>
                     <div className='flex'>
-                        <div className='box_example'>
+                        <div className='box_example bot'>
                             <div className='circle'>
                             </div>
                             
@@ -78,7 +78,7 @@ class Empresa extends Component {
                             utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%.
                             </p>
                         </div>
-                        <div className='box_example'>
+                        <div className='box_example bot'>
                             <div className='circle'>
                             </div>
                             
@@ -90,7 +90,7 @@ class Empresa extends Component {
                             utilizando abono orgánico que enriquece los nutrientes del maiz hasta en un 200%.
                             </p>
                         </div>
-                        <div className='box_example'>
+                        <div className='box_example bot'>
                             <div className='circle'>
                             
                             </div>
