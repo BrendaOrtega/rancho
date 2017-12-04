@@ -1,6 +1,5 @@
 .contacto{
     text-align: center;
-
 }
 .padd{
     padding-top: 30px;
@@ -55,7 +54,7 @@
 
 }
 .contenido{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .saludo{
     font-size: 60px;
@@ -64,6 +63,8 @@
 .mensaje{
     font-size: 20px;
     margin-bottom: 60px;
+    font-family: 'Questrial', sans-serif;
+
 }
 .btn_form{
     border:1px solid white;

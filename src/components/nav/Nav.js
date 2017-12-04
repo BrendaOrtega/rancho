@@ -1,42 +1,53 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import video from '../../assets/610939655.mp4';
-import FontAwesome from 'react-fontawesome';
-
+import sr from '../about/scrollReveal.js';
 import {Link} from 'react-router-dom';
 
 
 class Nav extends Component {
+    componentDidMount () {
+        window.scroll(0, 0)
+
+        const config3 = {
+            origin: 'bottom',
+            duration: 800,
+            delay: 100,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+
+        sr.reveal('.bot', config3);
+
+
+
+
+
+    }
     render(){
         return(
-            <div>
+            <div className="nav">
 				<Link to='/'>
 					<h2 className='bot'>Logo</h2>
 				</Link>
 
 	                <div className='pestanas bot'>
-						<Link to='/'>
-							<p className='link'>Somos</p>
+	                  <Link className='link' to='/ganaderia'>
+	                  	<span >Ganadería</span>
+	                  </Link>
+	                  <Link className='link' to='/info'>
+	                  	<span >Granos</span>
+	                  </Link>
+	                  <Link className='link' to='/campo'>
+	                  <span >Campo</span>
+	                  </Link>
+
+	                  <Link className='link' to='/tienda'>
+	                  <span >Tienda</span>
+	                  </Link>
+						<Link className='link' to='/contacto'>
+							<span >Contacto</span>
 						</Link>
-
-	                  <Link to='/ganaderia'>
-	                  	<p className='link'>Ganadería</p>
-	                  </Link>
-	                  <Link to='/info'>
-	                  	<p className='link'>Granos</p>
-	                  </Link>
-	                  <Link to='/campo'>
-	                  <p className='link'>Campo</p>
-	                  </Link>
-
-	                  <Link to='/tienda'>
-	                  <p className='link'>Tienda</p>
-	                  </Link>
-						<Link to='/contacto'>
-							<p className='link'>Contacto</p>
-						</Link>
-
-
 	                </div>
 	             
             </div>

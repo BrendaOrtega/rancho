@@ -1,9 +1,9 @@
 import React from 'react';
 import HomePage from './components/home/HomePage';
-import Empresa from './components/empresa/Empresa';
+import Empresa from './components/empresa/Granos';
 import Tienda from './components/tienda/Tienda';
-import Ganado from './components/ganado/Ganado';
-import Campo from './components/campo/Campo';
+import Ganaderia from './components/ganado/Ganaderia';
+import Campo from './components/campo/Campos';
 import Contacto from './components/contacto/Contacto';
 
 import {
@@ -18,7 +18,7 @@ const Routes = () => (
       	<Route exact path='/' component={HomePage}/>
       	<Route exact path='/info' component={Empresa}/>
     	<Route exact path='/tienda' component={Tienda}/>
-    	<Route exact path='/ganaderia' component={Ganado}/>
+    	<Route exact path='/ganaderia' component={Ganaderia}/>
     	<Route exact path='/campo' component={Campo}/>
 		<Route exact path="/contacto" component={Contacto}/>
     </Switch>

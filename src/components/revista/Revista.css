@@ -1,0 +1,33 @@
+.revista{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rev_img, .rev_text{
+    flex-grow: 1;
+    width:500px;
+}
+.rev_img{
+    background-image: url('https://images.pexels.com/photos/276460/pexels-photo-276460.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-position: center;
+    background-size: cover;
+    height:600px;
+}
+.rev_text{
+    background-color: #efefef;
+
+}
+.rev_text p{
+    width:90%;
+    margin:0 auto;
+    font-size: 1.3rem;
+    color:#878787;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.rev_text h2{
+    margin-top: 90px;
+    font-size: 2.2rem;
+    color:#696969;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.seller{
+    background-color:white;
+    height:300px;
+    text-align: center;
+}
+.seller h2{
+    font-size: 2.5rem;
+    color:#696969;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+.seller p{
+    font-size: 1.6rem;
+    color:#878787;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.spa{
+    width:70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.seller span{
+    color:#696969;
+
+}

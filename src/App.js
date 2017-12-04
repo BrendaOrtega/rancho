@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 //import RaisedButton from 'material-ui/RaisedButton';
 import Routes from './routes';
-
+import Footer from './components/footer/Footer';
 
 class App extends Component {
     constructor(){
@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <Routes/>
-
+        <Footer />
       </div>
     );
   }

@@ -12,12 +12,13 @@ class Slide extends Component {
 			    items: 1,
 			    nav: false,
 			    rewind: true,
-			    autoplay: true
+			    autoplay: true,
+				loop:true,
 			};
         return(
             <div className='carousel bot '>
             	<OwlCarousel ref="car" options={options}  >
-				    <div><img src="https://images.pexels.com/photos/296230/pexels-photo-296230.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="The Last of us"/></div>
+				    <div><img src="https://media-cdn.tripadvisor.com/media/photo-s/02/bb/27/d7/cabanas-la-caledonia.jpg" alt="The Last of us"/></div>
 				    <div><img src="https://images.pexels.com/photos/158179/lake-constance-sheep-pasture-sheep-blue-158179.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="GTA V"/></div>
 				    <div><img src="https://images.pexels.com/photos/89267/pexels-photo-89267.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Mirror Edge"/></div>
 				</OwlCarousel>
@@ -28,7 +29,7 @@ class Slide extends Component {
 					<button className='btn_slide bot' onClick={() => this.refs.car.next()}>
 						<FontAwesome name='angle-right' className='icon_about' size='2x'/>
 					</button>
-					<p> Un desarrollo privado de 128 hectáreas con acceso controlado y seguridad las 24:00 hrs con todo el respaldo y solidez de Grupo Avándaro.</p>
+					<p className="claro"> Un desarrollo privado de 128 hectáreas con acceso controlado y seguridad las 24:00 hrs con todo el respaldo y solidez de Grupo Avándaro.</p>
             </div>
         );
     }

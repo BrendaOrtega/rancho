@@ -1,18 +1,56 @@
+/*SOBRE NOSOTROS*/
 .about{
 	background-color: white;
 	width: 100%;
 	height: auto;
-	padding-top: 35px;
-	text-align: center;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
+.about_info{
+	width:70%;
+	margin: 0 auto;
+
+}
+.about_info p{
+	font-size: 1.6rem;
+	color:#878787;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+.about_info h2{
+	font-size: 2.5rem;
+	color:#696969;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.ayuda{
+	text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carro{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-
+	margin-top: 30px;
+}
+.desc{
+	margin-top: 50px;
 }
 .carrito{
 	width: 150px;
@@ -30,4 +68,31 @@
 	color:#878787;
 	padding: 1% 5%;
 	min-height:300px;
+}
+.document{
+	display: flex;
+	flex-wrap: wrap;
+	width:80%;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.doc{
+	width:400px;
+	flex-grow: 1;
+}
+.doc img{
+	width:90%;
+	margin: 0 auto;
+}
+
+.doc p, .doc h3{
+	width:80%;
+	margin: 0 auto;
+	color:#656565;
+	font-family: 'Questrial', sans-serif;
+	word-wrap: break-word;
+	line-height:1.6;
+}
+.inf{
+	margin-top: 70px;
 }

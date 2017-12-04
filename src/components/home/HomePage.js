@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import './HomePage.css';
 import video from '../../assets/610939655.mp4';
 import FontAwesome from 'react-fontawesome';
-import Slide from './Slide';
 import Galeria from '../galeria/Galeria';
-import Footer from '../footer/Footer';
-import About from '../about/About';
-import {Link} from 'react-router-dom';
 import Nav from '../nav/Nav';
+import Publi from '../common/Publi';
+import Descript from '../about/Descript';
+import Revista from '../revista/Revista';
+import Seller from '../seller/Seller';
+
 
 class HomePage extends Component {
     render(){
         return(
             <div>       
 	            <div className='back'>
-	            	<Nav />
+	            	<Nav/>
 	                <div className='name'>
 	                
 	                	<h1 className='bot'>Grupo Mascota</h1>
@@ -26,18 +27,15 @@ class HomePage extends Component {
 	          		       <FontAwesome name='twitter-square' className='icon_about bot' size='2x'/>
 	          		       <FontAwesome name='instagram' className='icon_about bot' size='2x'/>
 	                </div>
-	            <video id='bg-video' autoPlay="autoplay" loop  >
-	              <source src={video} type="video/mp4" />
-	            </video>
+					<video id='bg-video' autoPlay="autoplay" loop  >
+					  <source src={video} type="video/mp4" />
+					</video>
 	            </div>
-	            
-	    		<div className='box_slide '>
-	    			<h2 className='bot'>"Todo lo que buscas en un solo lugar"</h2>
-	    			<Slide />
-	    		</div>
+	            <Descript />
+				<Publi />
 	    		<Galeria />
-	    		<About/>
-	    		<Footer />
+				<Revista />
+				<Seller />
 
             </div>
         );

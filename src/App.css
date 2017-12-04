@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
 
 .App{
   overflow: hidden;
+}
+
+.letra{
+  font-family: 'Questrial', sans-serif;
 }

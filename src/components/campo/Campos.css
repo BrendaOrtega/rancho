@@ -1,0 +1,81 @@
+.campo{
+    background-image: url('https://images.pexels.com/photos/67211/field-away-summer-sky-67211.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cat{
+    padding-bottom: 50px;
+    width: 60%;
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.product{
+    width: 300px;
+    flex-grow: 1;
+    height: 280px;
+    overflow: hidden;
+}
+
+.product_title{
+    width: 160px;
+    margin:10px 0 50px 20px;
+}
+.product_title hr{
+    height: 4px;
+    border:transparent;
+    border-radius: 4px;
+    background-color: black;
+}
+.product_title h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.cubierta{
+    background-color:rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+    padding-top: 40px;
+}
+.product p{
+    color: transparent;
+    transition: all 1s ease;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.uno{
+    background-image: url('https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    transition: all 1s ease;
+}
+.dos{
+    background-image: url('https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-size: cover;
+}
+.tres{
+    background-image: url('https://images.pexels.com/photos/161512/eggplant-400-08373800-400-08373801-400-08373802-400-08373803-161512.jpeg?h=350&auto=compress&cs=tinysrgb');
+    background-size: cover;
+}
+.cuatro{
+    background-image: url('https://images.pexels.com/photos/298696/pexels-photo-298696.jpeg?h=350&auto=compress&cs=tinysrgb');
+    background-size: cover;
+}
+.cubierta:hover{
+    background-color: rgba(0,0,0,.7);
+    cursor: pointer;
+}
+.cubierta:hover p{
+    color: white;
+}
+.resaltado{
+    font-size: 25px;
+    font-size: bolder;
+}

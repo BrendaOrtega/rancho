@@ -1,0 +1,48 @@
+.granos{
+    background-image: url('https://images.pexels.com/photos/540925/pexels-photo-540925.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.examples{
+    padding-bottom: 60px;
+    text-align: center;
+    width:80%;
+    margin: 50px auto;
+}
+.box_example{
+    width: 200px;
+    flex-grow: 1;
+    padding: 0 4%;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 0 auto;
+    background-image: url('https://images.pexels.com/photos/326082/pexels-photo-326082.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-position: center;
+}
+.linea{
+    width: 120px;
+    background-color: #878787;
+    height:2px;
+    border:none;
+    border-radius: 2px;
+    opacity: .5;
+}
+.min{
+    font-size: 1rem;
+    color:#878787;
+    font-family: 'Montserrat', sans-serif;
+}

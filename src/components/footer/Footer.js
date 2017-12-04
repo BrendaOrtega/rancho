@@ -9,18 +9,7 @@ class Footer extends Component {
     render(){
         return(
             <div className='footer'>
-                <div className=" invit">
-                    <div className="span">
-                        <span>Grupo Mascota te ofrece atención, calidad y precio ! </span>
-                    </div>
-                    <div>
-                        <Link to='/contacto'>
-                            <button className="btn_contacto">Contactar</button>
-                        </Link>
 
-                    </div>
-                </div>
-                <hr />
                 <div className="flexi">
                     <div className="social">
                         <span><FontAwesome name='facebook-square' className='icon_redes' size="2x"/></span>
