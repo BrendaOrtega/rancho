@@ -11,11 +11,37 @@
 	margin: 0 auto;
 
 }
+.flex{
+	width:90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cov{
+	background-color: rgba(0,0,0,.2);
+	width:100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	text-align: center;
+}
+.box_cat{
+	width:300px;
+	flex-grow: 1;
+	margin: 15px 30px;
+	height:200px;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+
+}
 .about_info p{
 	font-size: 1.6rem;
 	color:#878787;
 	font-family: 'Montserrat', sans-serif;
-	text-align: justify;
+	text-align: center;
 }
 .about_info h2{
 	font-size: 2.5rem;

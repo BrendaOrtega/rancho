@@ -1,7 +1,7 @@
 
 a{
+	color:#666;
 	text-decoration: none;
-	color:white;
 }
 .may{
 	font-family: 'Carrois Gothic SC', sans-serif;
@@ -12,17 +12,17 @@ a{
 
 }
 .back{
-	background-image: url('https://images.pexels.com/photos/134879/pexels-photo-134879.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   color:white;
+	background-image: url('../../assets/001.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.back h2{
-  text-align: center;
-  padding-top: 50px;
-  margin:0;
-}
+
 #bg-video{
   position: fixed;
   top:-50px;
@@ -32,17 +32,14 @@ a{
   min-height:110%;
   z-index: -1000;
 }
-.name{
-	text-align: center;
-	margin-top:25vh;
-}
 .name h1{
 	font-size: 60px;
+	margin: 0;
 }
 .redes{
 	display: flex;
+	margin-top: 50px;
 	justify-content: center;
-	margin-top: 30vh;
 }
 .icon_about{
 	margin: 0 20px;
@@ -70,9 +67,6 @@ a{
 	width:100px;
 }
 @media(min-width: 560px){
-	.back{
-		background: none;
-	}
 
 }
 

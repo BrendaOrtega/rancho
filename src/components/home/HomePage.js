@@ -15,22 +15,13 @@ class HomePage extends Component {
         return(
             <div>       
 	            <div className='back'>
-	            	<Nav/>
 	                <div className='name'>
-	                
-	                	<h1 className='bot'>Grupo Mascota</h1>
-	                </div>
-	        
-	                <div className='redes'>
-	             
-	          		       <FontAwesome name='facebook-square' className='icon_about bot' size='2x'/>
-	          		       <FontAwesome name='twitter-square' className='icon_about bot' size='2x'/>
-	          		       <FontAwesome name='instagram' className='icon_about bot' size='2x'/>
-	                </div>
-					<video id='bg-video' autoPlay="autoplay" loop  >
-					  <source src={video} type="video/mp4" />
-					</video>
+						<h1 className='bot'>Grupo Mascota</h1>
+						<p>Use this template to give your readers a bit of important information.
+						</p>
+					</div>
 	            </div>
+				<Nav />
 	            <Descript />
 				<Publi />
 	    		<Galeria />

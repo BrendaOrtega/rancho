@@ -2,8 +2,12 @@
 	font-family: 'Quicksand', sans-serif;
 }
 .nav{
+	color:#666;
 	width:100%;
 	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid #ddd;
+	height: 60px;
 }
 .nav h2{
 	text-align: center;
@@ -13,10 +17,14 @@
 
 
 .pestanas{
+	height:60px;
   	display: flex;
+	align-items: center;
 	flex-wrap: wrap;
 	width: 90%;
 	margin-left: 5%;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 .link{
 	width: 100px;
@@ -30,6 +38,51 @@
 .link:hover{
 	color:#262626;
 	background-color: rgba(255,255,255,0.5);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+
+}
+.dropbtn {
+	background-color: transparent;
+	height:100%;   width:150px;
+	flex-grow: 1;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	color:#666;
+	text-transform: uppercase;
+}
+
+.dropdown-content {
+	display: none;
+	color:#666;
+	position: absolute;
+	top:20px;
+	right:0px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 999;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color:#666;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
 }
 @media(max-width: 600px){
 	.pestanas{

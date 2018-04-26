@@ -27,26 +27,40 @@ class Nav extends Component {
     render(){
         return(
             <div className="nav">
-				<Link to='/'>
-					<h2 className='bot'>Logo</h2>
-				</Link>
-
 	                <div className='pestanas bot'>
 	                  <Link className='link' to='/ganaderia'>
-	                  	<span >Ganadería</span>
+	                  	<span >Empresa</span>
 	                  </Link>
-	                  <Link className='link' to='/info'>
-	                  	<span >Granos</span>
-	                  </Link>
-	                  <Link className='link' to='/campo'>
-	                  <span >Campo</span>
-	                  </Link>
+						<div className="dropdown">
+							<button className="dropbtn"> <span>Ganadería</span></button>
+							<div className="dropdown-content av">
+								<Link to="/">Bovino</Link>
+								<Link to="/">Porcino</Link>
+								<Link  to="/">Equino</Link>
+							</div>
+						</div>
+						<div className="dropdown">
+							<button className="dropbtn"> <span>Agricultura órganica</span></button>
+							<div className="dropdown-content av">
+								<Link to="/">Productos</Link>
+								<Link to="/">Pastos</Link>
 
+							</div>
+						</div>
 	                  <Link className='link' to='/tienda'>
-	                  <span >Tienda</span>
+	                  <span >Granos</span>
 	                  </Link>
+						<Link className='link' to='/tienda'>
+							<span >Granos</span>
+						</Link>
+						<Link className='link' to='/tienda'>
+							<span >Alimento balanceado</span>
+						</Link>
+						<Link className='link' to='/tienda'>
+							<span >Huevo organico</span>
+						</Link>
 						<Link className='link' to='/contacto'>
-							<span >Contacto</span>
+							<span >Pasturería Araceli</span>
 						</Link>
 	                </div>
 	             
