@@ -7,7 +7,7 @@ import Nav from '../nav/Nav';
 class Contacto extends Component {
     render(){
         return(
-            <div className='contacto'>
+            <div className='contactos'>
                 <div className='back_form'>
                     <div className='cover'>
                         <Nav />

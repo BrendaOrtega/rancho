@@ -11,6 +11,22 @@ a{
 	font-family: 'Montserrat', sans-serif;
 
 }
+.contacto{
+	position: absolute;
+	top: 0;
+	height:50px;
+	right: 0;
+	display: flex;
+	align-items: center;
+}
+.contacto span{
+	color:white;
+	font-size: 22px;
+}
+.contacto p{
+	font-size: 15px;
+	color:white;
+}
 .back{
 background-position: center;
   background-size: cover;

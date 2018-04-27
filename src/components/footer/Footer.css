@@ -28,9 +28,7 @@
     width:100%;
     border:transparent;
 }
-.social{
-    padding: 15px 15px;
-}
+
 .flexi{
     display: flex;
     justify-content: space-around;

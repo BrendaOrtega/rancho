@@ -34,25 +34,23 @@ class Nav extends Component {
 						<div className="dropdown">
 							<button className="dropbtn"> <span>Ganadería</span></button>
 							<div className="dropdown-content av">
-								<Link to="/">Bovino</Link>
-								<Link to="/">Porcino</Link>
-								<Link  to="/">Equino</Link>
+								<Link to="/ganaderia">Bovino</Link>
+								<Link to="/ganaderia">Porcino</Link>
+								<Link  to="/ganaderia">Equino</Link>
 							</div>
 						</div>
 						<div className="dropdown">
 							<button className="dropbtn"> <span>Agricultura órganica</span></button>
 							<div className="dropdown-content av">
-								<Link to="/">Productos</Link>
-								<Link to="/">Pastos</Link>
+								<Link to="/campo">Productos</Link>
+								<Link to="/campo">Pastos</Link>
 
 							</div>
 						</div>
-	                  <Link className='link' to='/tienda'>
-	                  <span >Granos</span>
+	                  <Link className='link' to='/granos'>
+	                  	<span >Granos</span>
 	                  </Link>
-						<Link className='link' to='/tienda'>
-							<span >Granos</span>
-						</Link>
+
 						<Link className='link' to='/tienda'>
 							<span >Alimento balanceado</span>
 						</Link>

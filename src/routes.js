@@ -16,7 +16,7 @@ import {
 const Routes = () => (
     <Switch>
       	<Route exact path='/' component={HomePage}/>
-      	<Route exact path='/info' component={Empresa}/>
+      	<Route exact path='/granos' component={Empresa}/>
     	<Route exact path='/tienda' component={Tienda}/>
     	<Route exact path='/ganaderia' component={Ganaderia}/>
     	<Route exact path='/campo' component={Campo}/>
