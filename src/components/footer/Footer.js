@@ -9,20 +9,30 @@ class Footer extends Component {
     render(){
         return(
             <div className='footer'>
-
                 <div className="flexi">
-                    <div className="social">
-                        <span><FontAwesome name='facebook-square' className='icon_redes' size="2x"/></span>
-                        <span><FontAwesome name='twitter-square' className='icon_redes' size="2x"/></span>
-                        <span><FontAwesome name='linkedin-square' className='icon_redes' size="2x"/></span>
-                        <span><FontAwesome name='google-plus-square' className='icon_redes' size="2x"/></span>
+                    <div>
+                        <h3>Sobre Rancho La Laguna</h3>
+                        <p>Nosotros</p>
+                        <p>Contacto</p>
                     </div>
                     <div className="terminos">
-                        <span>Términos de servicio</span>
-                        <span>Política de privacidad</span>
+                        <h3 style={{color:"transparent"}}>Contacto</h3>
+                        <p>admin@lalaguna.com</p>
+                        <p>7757609276</p>
                     </div>
+
+                    {/*<div className="social">*/}
+                        {/*<span><FontAwesome name='facebook-square' className='icon_redes' size="2x"/></span>*/}
+                        {/*<span><FontAwesome name='twitter-square' className='icon_redes' size="2x"/></span>*/}
+                        {/*<span><FontAwesome name='linkedin-square' className='icon_redes' size="2x"/></span>*/}
+                        {/*<span><FontAwesome name='google-plus-square' className='icon_redes' size="2x"/></span>*/}
+                    {/*</div>*/}
+
                 </div>
-    			
+                <hr/>
+                <div >
+                    <p>Copyright © Rancho La Laguna 2017</p>
+                </div>
       		</div>
         );
     }

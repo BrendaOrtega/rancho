@@ -16,8 +16,9 @@ class Descript extends Component {
         return(
             <div className='about '>
                 <div className="about_info bot">
-                    <p>Productos Pastos
+                    <p>
                         “Somos un rancho integral, enfocados en la producción agrícola orgánica y uso de implementos naturales, para el autoconsumo de nuestros animales y venta al público”
+                        <br/>
                         RANCHO LA LAGUNA</p>
                 </div>
                 <div className="categorias">

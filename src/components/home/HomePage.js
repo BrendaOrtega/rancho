@@ -24,10 +24,6 @@ class HomePage extends Component {
 				<Nav />
 	            <Descript />
 				<Publi />
-	    		<Galeria />
-				<Revista />
-				<Seller />
-
             </div>
         );
     }
