@@ -9,6 +9,7 @@ import Descript from '../about/Descript';
 import Revista from '../revista/Revista';
 import Seller from '../seller/Seller';
 import {Link} from 'react-router-dom';
+import logow from '../../assets/rllblanco.png';
 
 class HomePage extends Component {
     render(){
@@ -26,9 +27,7 @@ class HomePage extends Component {
 						</div>
 					</div>
 	                <div className='name'>
-						<h1 className='bot'>Grupo Mascota</h1>
-						<p>Use this template to give your readers a bit of important information.
-						</p>
+						<img src={logow} alt=""/>
 					</div>
 	            </div>
 				<Nav />

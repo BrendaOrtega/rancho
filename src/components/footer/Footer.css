@@ -2,32 +2,47 @@
     width: 100%;
     /*background-color: #383838;*/
     text-align: center;
-    color:#696969;
+    background-color:#51493d;
+    color:#b4b0ab;
+    padding-top: 50px;
 
 }
-.invit{
-    height:200px;
+.footer .flexi{
+    padding-bottom: 50px;
 }
-.span{
-    font-size: 30px;
-    padding-top: 7%;
-    margin-left: 20px;
-    float: left;
+.footer .flexi div{
+    width:300px;
+    flex-grow: 1;
 }
-.divsi{
-    float: right;
-    margin-right: 100px;
-    margin-top: 6%;
+.footer input{
+    width:50%;
+    background-color: #51493d;
+    border: none;
+    padding: 5% 9% 3% 1%;
+    border-bottom: 1px solid #b4b0ab !important;
+}
+.btn_send{
+    background-color: #996439;
+    color:white;
+    width:100px;
+    margin: 0 auto;
+    padding: 2% 5%;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copy{
+    background-color: #474137 !important;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p span{
+    margin: 0 10px;
 }
 
 
-.footer hr{
-    background-color: #696969;
-    height:1px;
-    opacity: .5;
-    width:100%;
-    border:transparent;
-}
 
 .flexi{
     display: flex;
@@ -38,15 +53,7 @@
 .icon_redes{
     margin: 0 10px;
 }
+#map{
+    width:100%;
 
-.btn_contacto{
-    /*background-color: rgba(255,255,255,.7);*/
-    background-color: transparent;
-    padding: 10px 20px;
-    border:solid 1px white;
-    border-radius: 4px;
-    color: white;
-    margin-top: 7%;
-    font-size: 15px;
-    cursor: pointer;
 }

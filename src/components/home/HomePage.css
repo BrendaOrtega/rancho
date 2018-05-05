@@ -18,10 +18,14 @@ a{
 	right: 0;
 	display: flex;
 	align-items: center;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 10px;
+
 }
 .contacto span{
 	color:white;
-	font-size: 22px;
+	margin: 0 4px;
+	font-size: 18px;
 }
 .contacto p{
 	font-size: 15px;
@@ -81,6 +85,14 @@ background-position: center;
 	border:none;
 	height:2px;
 	width:100px;
+}
+.name {
+	width:40%;
+	text-align: center;
+	margin: 0 auto;
+}
+.name img{
+	width:100%;
 }
 @media(min-width: 560px){
 

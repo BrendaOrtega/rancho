@@ -16,58 +16,115 @@ class Descript extends Component {
         return(
             <div className='about '>
                 <div className="about_info bot">
-                    <p>
+                    <p className="text">
                         “Somos un rancho integral, enfocados en la producción agrícola orgánica y uso de implementos naturales, para el autoconsumo de nuestros animales y venta al público”
                         <br/>
-                        RANCHO LA LAGUNA</p>
+                       </p>
+                    <p className="rancho"> RANCHO LA LAGUNA</p>
                 </div>
                 <div className="categorias">
                     <div className="flex">
-                        <div className="box_cat" style={{backgroundImage:`url(${dos})`}}>
-                            <div className="cov">
-                                <p>“El corazón del rancho: nuestros pastos”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${dos})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“El corazon del rancho:
+                                        <br/>nuestros pastos”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${tres})`}}>
-                            <div className="cov">
-                                <p>“Calidad y rendimiento eficiente en nuestro ganado”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${tres})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Calidad y rendimiento eficiente <br/>en nuestro ganado”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${cuatro})`}}>
-                            <div className="cov">
-                                <p>“Nuestro principal paso al éxito: autoconsumo en alimento”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${cuatro})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Nuestro principal paso <br/> al exito: autoconsumo <br/>en alimento”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${cinco})`}}>
-                            <div className="cov">
-                                <p>“Gallina feliz, huevo feliz”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${cinco})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Gallina feliz, huevo feliz”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${seis})`}}>
-                            <div className="cov">
-                                <p>“La manera natural de sembrar exitosamente”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${seis})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“La manera natural de <br/>sembrar exitosamente”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${siete})`}}>
-                            <div className="cov">
-                                <p>“Capacidad, desarrollo y reproducción efectiva”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${siete})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Capacidad, desarrollo y reproduccion efectiva”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${ocho})`}}>
-                            <div className="cov">
-                                <p>“Venta y compra de granos”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${ocho})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Venta y compra de granos”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${nueve})`}}>
-                            <div className="cov">
-                                <p>“Belleza, nobleza y fuerza no pueden faltar en el rancho”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${nueve})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Belleza, nobleza y fuerza no pueden faltar en el rancho”</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="box_cat" style={{backgroundImage:`url(${diez})`}}>
-                            <div className="cov">
-                                <p>“Nuestro enlace al público: Pasturería Araceli”</p>
+                        <div className="box_cat" >
+                            <div className="flip">
+                                <div className="atras" style={{backgroundImage:`url(${diez})`}}>
+
+
+                                </div>
+                                <div className="front">
+                                    <p>“Nuestro enlace al público: Pastureria Araceli”</p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

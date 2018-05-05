@@ -1,14 +1,16 @@
 .publi{
-    margin: 50px 0;
+    margin: 0px 0;
     width:100%;
-    height:400px;
-    background-color: #50B1FF;
+    height:450px;
+    padding-top: 50px;
+    background-color: #F7F4EB;
     text-align: center;
 }
 .capa{
-    width:100%;
     height:400px;
-    background-color: rgba(0,0,0,.5);
+    /*background-color: rgba(0,0,0,.5);*/
+    width:70%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -19,42 +21,47 @@
     background-size: cover;
     width:300px;
     flex-grow: 1;
-    height:80%;
+    height:100%;
     margin: 0 20px;
 }
 .box_info{
+    padding: 2% 3%;
     width:300px;
     flex-grow: 1;
+    background-color: white;
+    margin-right: -100px;
+    z-index:999;
+
 
 }
 .capa h3{
-    color:white;
+
     padding: 0;
     margin: 0;
     text-align: center;
     font-size: 25px;
-    padding-top: 12%;
+    padding-top: 5%;
     transition: all 1s ease;
 
 }
 .capa p{
-    color:white;
+
     font-size: 16px;
     font-family: 'Questrial', sans-serif;
 }
 .btn_white{
-    background-color: transparent;
-    border:1px solid white;
-    border-radius: 1px;
+    width:100px;
+    height:34px;
+    background-color: #996439;
+    border:1px solid #996439;
     color:white;
-    font-size: 15px;
-    padding: 8px 12px;
-    margin-top: 40px;
+    font-size: 13px;
+    margin-top: 30px;
     transition: all .7s ease;
-    display: none;
+    border-radius: 17px;
     cursor: pointer;
 }
-.capa:hover .btn_white{
-    display: inline-block;
-    margin-top: 10px;
-}
+/*.capa:hover .btn_white{*/
+    /*display: inline-block;*/
+    /*margin-top: 10px;*/
+/*}*/
