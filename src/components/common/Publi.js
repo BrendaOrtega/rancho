@@ -16,8 +16,6 @@ class Publi extends Component {
                     <div className="box_color" style={{backgroundImage:`url(${once})`}}>
 
                     </div>
-
-
                 </div>
             </div>
         );

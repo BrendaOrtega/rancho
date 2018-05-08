@@ -58,6 +58,8 @@
 }
 
 .dropdown-content {
+	font-family: 'Quicksand', sans-serif;
+
 	display: none;
 	color:#666;
 	position: absolute;
